@@ -1,0 +1,27 @@
+@namespace(uri="www.Buy_Eat.com", prefix="BE")
+package Buy_Eat;
+
+class Buy_Eat {
+  val Buyer[*] buyer;
+  val Food[*] Food;
+  val Eater[*] eater;
+}
+
+class Eater extends Person {
+  ref Buyer owner;
+  ref Food[*]#eats eatenBy;
+}
+
+class Buyer extends Person {
+  ref Eater[*] ownedBy;
+}
+
+abstract class Person {
+  attr String name;
+}
+
+class Food {
+  ref Eater#eatenBy eats;
+  attr String name;
+}
+
