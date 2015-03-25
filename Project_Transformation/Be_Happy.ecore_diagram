@@ -15,8 +15,46 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ma8O9MuEeS7N5oTtMAs0g"/>
     </children>
     <element xmi:type="ecore:EClass" href="Be_Happy.ecore#//Be_Happy"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ma8MdMuEeS7N5oTtMAs0g" x="306" y="54"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ma8MdMuEeS7N5oTtMAs0g" x="330" y="54"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0_iCQNMvEeSvaNzmft1P-g" type="2001" fontName=".Helvetica Neue DeskInterface">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0_ipUNMvEeSvaNzmft1P-g" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0_ipUdMvEeSvaNzmft1P-g" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_Hij4kNMwEeSvaNzmft1P-g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Be_Happy.ecore#//People/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hij4kdMwEeSvaNzmft1P-g"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_LVBdkNMwEeSvaNzmft1P-g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Be_Happy.ecore#//People/IsHappy"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LVBdkdMwEeSvaNzmft1P-g"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0_ipUtMvEeSvaNzmft1P-g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0_ipU9MvEeSvaNzmft1P-g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0_jQYNMvEeSvaNzmft1P-g" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0_jQYdMvEeSvaNzmft1P-g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0_jQYtMvEeSvaNzmft1P-g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0_jQY9MvEeSvaNzmft1P-g" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0_jQZNMvEeSvaNzmft1P-g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0_jQZdMvEeSvaNzmft1P-g"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Be_Happy.ecore#//People"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0_iCQdMvEeSvaNzmft1P-g" x="288" y="207"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_4_QcodMuEeS7N5oTtMAs0g"/>
   <element xmi:type="ecore:EPackage" href="Be_Happy.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_QFqiENMwEeSvaNzmft1P-g" type="4003" source="_8Ma8MNMuEeS7N5oTtMAs0g" target="_0_iCQNMvEeSvaNzmft1P-g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QFrwMNMwEeSvaNzmft1P-g" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QFrwMdMwEeSvaNzmft1P-g" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QFrwMtMwEeSvaNzmft1P-g" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QFrwM9MwEeSvaNzmft1P-g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QFqiEdMwEeSvaNzmft1P-g" fontName=".Helvetica Neue DeskInterface"/>
+    <element xmi:type="ecore:EReference" href="Be_Happy.ecore#//Be_Happy/%"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QFrJINMwEeSvaNzmft1P-g" points="[-18, 14, 22, -114]$[-20, 16, 20, -112]$[-38, 115, 2, -13]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QFwBoNMwEeSvaNzmft1P-g" id="(0.7692307692307693,0.7307692307692307)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QFwBodMwEeSvaNzmft1P-g" id="(0.4444444444444444,0.17333333333333334)"/>
+  </edges>
 </notation:Diagram>
