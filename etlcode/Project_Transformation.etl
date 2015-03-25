@@ -1,12 +1,12 @@
 rule BuyEat-BeHappy 
   transform sp : BuyEat!people, sf: BuyEat!food, sb: BuyEat!buy, se: BuyEat!eat
-  to t : BeHappy!people
+  to t : BeHappy!people {
   
   if (sp.source==se.source && sp.target==se.target){
-  t.name = sp.name;
-  t.isHappy = True;
+	  t.name = sp.name;
+	  t.isHappy = True;
   }
-
+}
 
   
   n.name = t.label;
