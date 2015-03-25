@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_4_QcoNMuEeS7N5oTtMAs0g" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_8Ma8MNMuEeS7N5oTtMAs0g" type="2001" fontName=".Helvetica Neue DeskInterface">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8Ma8MtMuEeS7N5oTtMAs0g" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8Ma8M9MuEeS7N5oTtMAs0g" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8Ma8NNMuEeS7N5oTtMAs0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ma8NdMuEeS7N5oTtMAs0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8Ma8NtMuEeS7N5oTtMAs0g" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8Ma8N9MuEeS7N5oTtMAs0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ma8ONMuEeS7N5oTtMAs0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8Ma8OdMuEeS7N5oTtMAs0g" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8Ma8OtMuEeS7N5oTtMAs0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ma8O9MuEeS7N5oTtMAs0g"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Be_Happy.ecore#//Be_Happy"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ma8MdMuEeS7N5oTtMAs0g" x="306" y="54"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_4_QcodMuEeS7N5oTtMAs0g"/>
+  <element xmi:type="ecore:EPackage" href="Be_Happy.ecore#/"/>
+</notation:Diagram>
