@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="MM1">
+  <eClassifiers xsi:type="ecore:EClass" name="Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="buy" upperBound="-1" eType="#//Buy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eat" upperBound="-1" eType="#//Eat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Food">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Buy">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="buy" lowerBound="1" upperBound="-1"
+        eType="#//Food"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Eat">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Eat" lowerBound="1" upperBound="-1"
+        eType="#//Food"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BuyEat"/>
+</ecore:EPackage>

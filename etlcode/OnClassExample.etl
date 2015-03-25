@@ -1,0 +1,17 @@
+rule rulenumber1
+	transform c: my00!Class
+	to t:myDB!Table, pk:myDB!Column{
+	
+		dbschema.tables.add(t);
+		
+		t.name=c.name;
+		pk.name = c.name+"PK";
+		pk.type="INT";
+		
+		t.cols.add(pk);
+		t.pKeys.add(pk);
+		
+	
+	}
+
+
