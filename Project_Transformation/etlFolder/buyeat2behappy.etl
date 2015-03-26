@@ -1,0 +1,12 @@
+rule BuyEat2BeHappy
+  transform s : buyeat!People
+  to n : behappy!People {
+  
+  n.name = s.name;
+  if (s.Buy==s.Eats){
+  	n.ishappy=true;
+  	
+  }
+
+ 
+}

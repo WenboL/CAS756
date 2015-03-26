@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Buyeat:Buyeat xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Buyeat="Buyeat">
+  <Peopleroot Eats="//@Foodroot.0" Buy="//@Foodroot.0" name="p1"/>
+  <Peopleroot Buy="//@Foodroot.1" name="p2"/>
+  <Foodroot name="a1"/>
+  <Foodroot name="a2"/>
+</Buyeat:Buyeat>

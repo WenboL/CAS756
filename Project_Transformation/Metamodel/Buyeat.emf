@@ -1,0 +1,18 @@
+@namespace(uri="Buyeat", prefix="Buyeat")
+package Buyeat;
+
+class People {
+  ref Food[*] Eats;
+  ref Food[*] Buy;
+  attr String name;
+}
+
+class Food {
+  attr String name;
+}
+
+class Buyeat {
+  val People[*] Peopleroot;
+  val Food[*] Foodroot;
+}
+

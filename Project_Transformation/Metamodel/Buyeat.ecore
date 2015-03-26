@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="BuyEat" nsURI="BuyEat_URI" nsPrefix="BuyEat_Prefix">
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Buyeat" nsURI="Buyeat" nsPrefix="Buyeat">
   <eClassifiers xsi:type="ecore:EClass" name="People">
     <eStructuralFeatures xsi:type="ecore:EReference" name="Eats" upperBound="-1" eType="#//Food"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="Buy" upperBound="-1" eType="#//Food"/>
@@ -9,10 +9,10 @@
   <eClassifiers xsi:type="ecore:EClass" name="Food">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="BuyEat">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="PeopleRoot" lowerBound="1"
-        upperBound="-1" eType="#//People" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="FoodRoot" lowerBound="1"
-        upperBound="-1" eType="#//Food" containment="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Buyeat">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Peopleroot" upperBound="-1"
+        eType="#//People" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Foodroot" upperBound="-1"
+        eType="#//Food" containment="true"/>
   </eClassifiers>
 </ecore:EPackage>

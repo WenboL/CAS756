@@ -1,0 +1,12 @@
+@namespace(uri="Behappy", prefix="Behappy")
+package Behappy;
+
+class People {
+  attr String name;
+  attr boolean ishappy;
+}
+
+class Behappy {
+  val People[*] Peopleroot;
+}
+

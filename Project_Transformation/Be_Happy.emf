@@ -1,8 +1,0 @@
-@namespace(uri="www.BE_Happy.com", prefix="BH")
-package Be_Happy;
-
-class People {
-  attr String name;
-  attr boolean IsHappy;
-}
-
