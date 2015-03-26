@@ -2,4 +2,8 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Behappy="Behappy">
   <Behappy:People name="p1" ishappy="true"/>
   <Behappy:People name="p2"/>
+  <Behappy:People name="p1" ishappy="true"/>
+  <Behappy:People name="p2"/>
+  <Behappy:People name="p1" ishappy="true"/>
+  <Behappy:People name="p2"/>
 </xmi:XMI>

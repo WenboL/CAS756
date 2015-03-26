@@ -1,0 +1,13 @@
+@namespace(uri="model1", prefix="model1")
+package model1;
+
+class telephone {
+  val info[*] belong;
+}
+
+class info {
+  attr String lastname;
+  attr String firstname;
+  attr int[*] phone;
+}
+

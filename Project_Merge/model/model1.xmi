@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model1:telephone xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:model1="model1" xsi:schemaLocation="model1 ../Metamodel/model1.ecore"/>
