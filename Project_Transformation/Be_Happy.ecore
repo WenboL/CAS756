@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="">
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Be_Happy" nsURI="www.BE_Happy.com" nsPrefix="BH">
   <eClassifiers xsi:type="ecore:EClass" name="Be_Happy">
     <eStructuralFeatures xsi:type="ecore:EReference" eType="#//People" containment="true"/>
   </eClassifiers>
