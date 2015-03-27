@@ -1,5 +1,5 @@
-@namespace(uri="model1", prefix="model1")
-package model1;
+@namespace(uri="left", prefix="left")
+package left;
 
 class telephone {
   val info[*] belong;
@@ -7,7 +7,8 @@ class telephone {
 
 class info {
   attr String lastname;
-  attr String firstname;
   attr int[*] phone;
+  attr int age;
+  attr String firstname;
 }
 

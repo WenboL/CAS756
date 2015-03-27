@@ -1,0 +1,13 @@
+@namespace(uri="right", prefix="right")
+package right;
+
+class telephone {
+  val info[*] belong;
+}
+
+class info {
+  attr String fullname;
+  attr int[*] phone;
+  attr EDate birthdate;
+}
+

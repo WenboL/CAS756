@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:target="target">
+  <target:telephone/>
+  <target:info name="Max Li"/>
+  <target:info>
+    <phone>111111</phone>
+    <phone>222222</phone>
+  </target:info>
+</xmi:XMI>

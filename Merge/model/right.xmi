@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<right:telephone xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:right="right">
+  <belong fullname="Max Li" birthdate="0006-08-16T00:00:00.000-0500">
+    <phone>555555</phone>
+  </belong>
+  <belong fullname="Jack Do" birthdate="0024-10-10T00:00:00.000-0500">
+    <phone>333333</phone>
+  </belong>
+</right:telephone>

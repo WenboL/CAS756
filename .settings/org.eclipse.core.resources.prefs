@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
-encoding//Project_Merge/Metamodel/model1.ecore_diagram=UTF-8
-encoding//Project_Merge/Metamodel/model2.ecore_diagram=UTF-8
-encoding//Project_Transformation/Metamodel/Behappy.ecore_diagram=UTF-8
-encoding//Project_Transformation/Metamodel/Buyeat.ecore_diagram=UTF-8
+encoding//Merge/Metamodel/left.ecore_diagram=UTF-8
+encoding//Merge/Metamodel/right.ecore_diagram=UTF-8
+encoding//Merge/Metamodel/target.ecore_diagram=UTF-8
+encoding//Transformation/Metamodel/Behappy.ecore_diagram=UTF-8
+encoding//Transformation/Metamodel/Buyeat.ecore_diagram=UTF-8

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_E5kXwNTKEeSZh6S4RXzKkQ" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_E6EHANTKEeSZh6S4RXzKkQ" type="2001" fontName=".Helvetica Neue DeskInterface">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E6EHAtTKEeSZh6S4RXzKkQ" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E6EHA9TKEeSZh6S4RXzKkQ" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E6EHBNTKEeSZh6S4RXzKkQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E6EuENTKEeSZh6S4RXzKkQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E6EuEdTKEeSZh6S4RXzKkQ" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E6EuEtTKEeSZh6S4RXzKkQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E6EuE9TKEeSZh6S4RXzKkQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E6EuFNTKEeSZh6S4RXzKkQ" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E6EuFdTKEeSZh6S4RXzKkQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E6EuFtTKEeSZh6S4RXzKkQ"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="right.ecore#//telephone"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E6EHAdTKEeSZh6S4RXzKkQ" x="24"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_E6EuF9TKEeSZh6S4RXzKkQ" type="2001" fontName=".Helvetica Neue DeskInterface">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E6FVINTKEeSZh6S4RXzKkQ" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E6FVIdTKEeSZh6S4RXzKkQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_OpAfQNTPEeSZh6S4RXzKkQ" type="3001">
+        <element xmi:type="ecore:EAttribute" href="right.ecore#//info/fullname"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OpAfQdTPEeSZh6S4RXzKkQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_OpAfQtTPEeSZh6S4RXzKkQ" type="3001">
+        <element xmi:type="ecore:EAttribute" href="right.ecore#//info/phone"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OpAfQ9TPEeSZh6S4RXzKkQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WRFD4NTPEeSZh6S4RXzKkQ" type="3001">
+        <element xmi:type="ecore:EAttribute" href="right.ecore#//info/birthdate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WRFD4dTPEeSZh6S4RXzKkQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E6FVItTKEeSZh6S4RXzKkQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E6FVI9TKEeSZh6S4RXzKkQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E6FVJNTKEeSZh6S4RXzKkQ" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E6FVJdTKEeSZh6S4RXzKkQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E6FVJtTKEeSZh6S4RXzKkQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E6FVJ9TKEeSZh6S4RXzKkQ" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E6FVKNTKEeSZh6S4RXzKkQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E6FVKdTKEeSZh6S4RXzKkQ"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="right.ecore#//info"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E6EuGNTKEeSZh6S4RXzKkQ" y="112"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_E5kXwdTKEeSZh6S4RXzKkQ"/>
+  <element xmi:type="ecore:EPackage" href="right.ecore#/"/>
+</notation:Diagram>

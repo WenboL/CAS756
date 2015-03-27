@@ -1,0 +1,21 @@
+rule MergeName
+	merge s : left!info
+	with t : right!info
+	into m: target!info {
+	
+	m.name = t.fullname;
+	
+	}
+
+rule MergePhone
+	merge s : left!info
+	with t : right!info
+	into m: target!info {
+	
+	m.phone = s.phone;
+	
+	}
+	
+
+
+	

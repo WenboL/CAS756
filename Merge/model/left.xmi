@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<left:telephone xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:left="left">
+  <belong lastname="Li" age="20" firstname="Max">
+    <phone>111111</phone>
+    <phone>222222</phone>
+  </belong>
+  <belong lastname="Danny" age="21" firstname="Jack">
+    <phone>333333</phone>
+  </belong>
+  <belong lastname="Jine" age="22" firstname="Ben">
+    <phone>444444</phone>
+  </belong>
+</left:telephone>

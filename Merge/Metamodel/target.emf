@@ -1,0 +1,13 @@
+@namespace(uri="target", prefix="target")
+package target;
+
+class telephone {
+  val info[*] belong;
+}
+
+class info {
+  attr String name;
+  attr int[*] phone;
+  attr int age;
+}
+
