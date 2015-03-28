@@ -1,20 +1,15 @@
-rule MergeName
+rule MergeTable
 	merge s : left!info
 	with t : right!info
 	into m: target!info {
 	
 	m.name = t.fullname;
+	m.name = s.firstname + " " +s.lastname;
+	m.phone = s.phone+t.phone;
 	
 	}
 
-rule MergePhone
-	merge s : left!info
-	with t : right!info
-	into m: target!info {
-	
-	m.phone = s.phone;
-	
-	}
+
 	
 
 
