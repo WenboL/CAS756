@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:target="target">
-  <target:telephone/>
   <target:info name="Max Li">
     <phone>111111</phone>
     <phone>222222</phone>
@@ -8,5 +7,15 @@
   </target:info>
   <target:info name="Jack Danny">
     <phone>333333</phone>
+  </target:info>
+  <target:info name="Tim Hortons">
+    <phone>111222</phone>
+    <phone>222333</phone>
+  </target:info>
+  <target:info name="Ben Jine">
+    <phone>444444</phone>
+  </target:info>
+  <target:info name="Alice Anand">
+    <phone>7777777</phone>
   </target:info>
 </xmi:XMI>
