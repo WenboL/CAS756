@@ -28,10 +28,6 @@
         <element xmi:type="ecore:EAttribute" href="left.ecore#//info/phone"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_EgDSQ9TPEeSZh6S4RXzKkQ"/>
       </children>
-      <children xmi:type="notation:Node" xmi:id="_Ft9P0NTPEeSZh6S4RXzKkQ" type="3001">
-        <element xmi:type="ecore:EAttribute" href="left.ecore#//info/age"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ft9P0dTPEeSZh6S4RXzKkQ"/>
-      </children>
       <children xmi:type="notation:Node" xmi:id="_JS-OsNTPEeSZh6S4RXzKkQ" type="3001">
         <element xmi:type="ecore:EAttribute" href="left.ecore#//info/firstname"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_JS-OsdTPEeSZh6S4RXzKkQ"/>

@@ -8,6 +8,5 @@ class telephone {
 class info {
   attr String fullname;
   attr int[*] phone;
-  attr EDate birthdate;
 }
 

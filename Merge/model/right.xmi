@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <right:telephone xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:right="right">
-  <belong fullname="Max Li" birthdate="0006-08-16T00:00:00.000-0500">
-    <phone>555555</phone>
+  <belong fullname="Max Payne">
+    <phone>666666</phone>
   </belong>
-  <belong fullname="Jack Do" birthdate="0024-10-10T00:00:00.000-0500">
+  <belong fullname="John Mc">
     <phone>333333</phone>
   </belong>
-  <belong fullname="Alice Anand" birthdate="0017-04-23T00:00:00.000-0500">
-    <phone>7777777</phone>
+  <belong>
+    <phone>444444</phone>
   </belong>
-  <belong fullname="Tim Hort" birthdate="0013-01-02T00:00:00.000-0500">
-    <phone>111222</phone>
-    <phone>222333</phone>
+  <belong fullname="LeftNoName">
+    <phone>777777</phone>
   </belong>
 </right:telephone>

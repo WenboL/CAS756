@@ -3,9 +3,13 @@ rule MergeTable
 	with t : right!info
 	into m: target!info {
 	
-	m.name = s.firstname + " " +s.lastname;
-	m.phone = s.phone+t.phone;
-	
+	if (s.lastname==null){
+	m.name = t.fullname;
+	}
+	else{
+		m.name = s.firstname + " " +s.lastname;
+	}
+	m.phone = s.phone+t.phone;	
 	}
 
 rule TransformLeftOver
