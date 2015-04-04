@@ -1,0 +1,21 @@
+context target!info {
+  
+  // Every NamedElement must define a name
+  constraint HasName {
+    
+    check : self.name <> "" and self.name <> null
+
+    message :  self + " must define a name."
+    
+  }
+  constraint HasNumber {
+    
+    check : self.phone <> null
+
+    message :  self + " must define a number"
+    
+  }
+
+ 
+ 
+} 
