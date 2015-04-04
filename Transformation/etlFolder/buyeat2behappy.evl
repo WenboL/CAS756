@@ -1,0 +1,20 @@
+context behappy!People {
+  
+  // Every NamedElement must define a name
+  constraint HasName {
+    
+    check : self.name <> ""
+
+    message : "Element " + self + " must define a name"
+    
+  }
+   critique IsNameEmpty {
+    
+    guard : self.satisfies("HasName")
+    
+    check : self.name <> null
+    
+    message : "Only the happy person should be transfer to this model."
+    }
+  
+} 

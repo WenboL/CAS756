@@ -3,10 +3,17 @@ rule BuyEat2BeHappy
   to n : behappy!People {
   
   n.name = s.name;
-  if (s.Buy==s.Eats){
-  	n.ishappy=true;
-  	
-  }
-
- 
-}
+	if(s.Buy.size()>0 and s.Eats.size()>0){
+		  for (i in Sequence{0..(s.Buy.size)}){
+		  	for(j in Sequence{0..(s.Eats.size())}){
+				  if (s.Buy[i] == s.Eats[j]){
+				  	n.ishappy=true;
+				  	return;
+				  }
+			  }
+		 	}
+		 }else{
+			  n.ishappy=false;
+			  return;
+			}
+	}

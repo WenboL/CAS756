@@ -2,6 +2,12 @@
 <Buyeat:Buyeat xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Buyeat="Buyeat">
   <Peopleroot Eats="//@Foodroot.0" Buy="//@Foodroot.0" name="p1"/>
   <Peopleroot Buy="//@Foodroot.1" name="p2"/>
+  <Peopleroot Eats="//@Foodroot.1 //@Foodroot.2" Buy="//@Foodroot.2" name="p3"/>
+  <Peopleroot Eats="//@Foodroot.3" Buy="//@Foodroot.3 //@Foodroot.4" name="p4"/>
+  <Peopleroot Eats="//@Foodroot.4" name="p5"/>
   <Foodroot name="a1"/>
   <Foodroot name="a2"/>
+  <Foodroot name="a3"/>
+  <Foodroot name="a4"/>
+  <Foodroot name="a5"/>
 </Buyeat:Buyeat>
