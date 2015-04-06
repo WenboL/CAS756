@@ -3,6 +3,7 @@ rule MergeTable
 	with t : right!info
 	into m: target!info {
 	
+<<<<<<< HEAD
 	if (s.lastname=="" and t.fullname==""){
 		m.name=s.firstname;
 		//m.name.print;
@@ -14,22 +15,30 @@ rule MergeTable
 		//m.name.print;
 					
 	}else{
+=======
+	if (s.lastname==null){
+		m.name = t.fullname;
+	}
+	else{
+>>>>>>> origin/master
 		m.name = s.firstname + " " +s.lastname;
 		//m.name.print;
 	}
 	m.phone = s.phone+t.phone;	
-	}
+}
 
 rule TransformLeftOver
-  transform s : left!info
-  to t : target!info {
+	transform s : left!info
+	to t : target!info {
+	
 	t.name = s.firstname + " " +s.lastname;
 	t.phone = s.phone;
 }
 
 rule TransformRightOver
-  transform s : right!info
-  to t : target!info {
+	transform s : right!info
+	to t : target!info {
+	
 	t.name = s.fullname;
 	t.phone = s.phone;
 }
