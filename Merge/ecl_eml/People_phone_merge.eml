@@ -4,24 +4,26 @@ rule MergeTable
 	into m: target!info {
 	
 	if (s.lastname==null){
-	m.name = t.fullname;
+		m.name = t.fullname;
 	}
 	else{
 		m.name = s.firstname + " " +s.lastname;
 	}
 	m.phone = s.phone+t.phone;	
-	}
+}
 
 rule TransformLeftOver
-  transform s : left!info
-  to t : target!info {
+	transform s : left!info
+	to t : target!info {
+	
 	t.name = s.firstname + " " +s.lastname;
 	t.phone = s.phone;
 }
 
 rule TransformRightOver
-  transform s : right!info
-  to t : target!info {
+	transform s : right!info
+	to t : target!info {
+	
 	t.name = s.fullname;
 	t.phone = s.phone;
 }
