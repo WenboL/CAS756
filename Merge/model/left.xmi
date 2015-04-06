@@ -13,4 +13,14 @@
   <belong>
     <phone>777777</phone>
   </belong>
+  <belong lastname="Same" firstname="FirstNumber">
+    <phone>555555</phone>
+  </belong>
+  <belong lastname="Same" firstname="SecondNumber">
+    <phone>999999</phone>
+    <phone>121212</phone>
+  </belong>
+  <belong lastname="NotMatch" firstname="Left">
+    <phone>232323</phone>
+  </belong>
 </left:telephone>

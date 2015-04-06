@@ -3,17 +3,48 @@ context behappy!People {
   // Every NamedElement must define a name
   constraint HasName {
     
-    check : self.name <> ""
+    check : self.name <> "" and self.name <> ""
 
     message : "Element " + self + " must define a name"
     
   }
-   critique IsNameEmpty {
-    
-    guard : self.satisfies("HasName")
-    
-    check : self.name <> null
-    
-    message : "People "+self+" must have a name."
-    }
+  
+  //check if all the people been copied over
+  constraint SamePeople {
+  	check{
+  		var beha = behappy!People.allInstances.name.size();
+  		var buyea = buyeat!People.allInstances.name.size();
+  		if (beha = buyea){
+  		return true;
+  		}
+  		return false;
+  	}  
+  	message: "People is not transform to target model"
+  }
+  
+  //check if the people should be happy or not
+	constraint ShouldBeHappy {
+		guard: self.satisfies ("HasName")
+		check{
+		
+		
+		  for (i in buyeat!People.Buy){
+		  	for(j in buyeat!People.Eats){
+		  		i.print;
+		  		j.print;
+				  if (i == j and self.ishappy == true){
+				  	return;
+				  }
+			  }
+		 	}
+		
+		
+	}
+	message:"wrong"
+	}
 } 
+
+
+
+	
+	

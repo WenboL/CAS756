@@ -6,10 +6,21 @@
   <belong fullname="John Mc">
     <phone>333333</phone>
   </belong>
-  <belong>
+  <belong fullname="">
     <phone>444444</phone>
   </belong>
   <belong fullname="LeftNoName">
     <phone>777777</phone>
+  </belong>
+  <belong fullname="First NumberSame">
+    <phone>555555</phone>
+    <phone>888888</phone>
+  </belong>
+  <belong fullname="Second NumberSame">
+    <phone>121212</phone>
+  </belong>
+  <belong fullname="Right NotMatch">
+    <phone>343434</phone>
+    <phone>454545</phone>
   </belong>
 </right:telephone>

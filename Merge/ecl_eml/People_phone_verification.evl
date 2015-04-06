@@ -3,18 +3,36 @@ context target!info {
   // Every NamedElement must define a name
   constraint HasName {
     
-    check : self.name <> "" and self.name <> null
+    check {
+	    if(self.name==null or self.name==""){
+	   		return false;
+	    }
+	    	return true;
+	    }
 
-    message :  self + " must define a name."
+    message :  "Those instances: "+ self + " must have a name."
     
   }
-  constraint HasNumber {
-    
-    check : self.phone <> null
-
-    message :  self + " must define a number"
+  constraint HasNumber {  
+  	guard: self.satisfies ("HasName")  
+    check {
+	    if(self.phone.isEmpty()){
+	    //self.phone.print;
+	    	return false;
+	    }
+	    	return true;
+	    }
+    message:  self.name + " must have at least one phone number"
     
   }
+  constraint DuplicatedNumber{
+  	guard: self.satisfies ("HasName")  
+  	check {
+  	
+  	}
+  	message: self.name+" has same phone number as "+self.name
+  }
+  
 
  
  

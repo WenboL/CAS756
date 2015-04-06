@@ -3,11 +3,19 @@ rule MergeTable
 	with t : right!info
 	into m: target!info {
 	
-	if (s.lastname==null){
-	m.name = t.fullname;
-	}
-	else{
+	if (s.lastname=="" and t.fullname==""){
+		m.name=s.firstname;
+		//m.name.print;
+	}else if(s.firstname=="" and t.fullname == ""){
+		m.name=s.lastname;
+		//m.name.print;
+	}else if(s.firstname==null or s.lastname==null) {
+		m.name = t.fullname;
+		//m.name.print;
+					
+	}else{
 		m.name = s.firstname + " " +s.lastname;
+		//m.name.print;
 	}
 	m.phone = s.phone+t.phone;	
 	}

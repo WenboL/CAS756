@@ -4,5 +4,4 @@
   <Behappy:People name="p2"/>
   <Behappy:People name="p3" ishappy="true"/>
   <Behappy:People name="p4" ishappy="true"/>
-  <Behappy:People name="p5"/>
 </xmi:XMI>
