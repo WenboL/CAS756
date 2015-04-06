@@ -1,8 +1,8 @@
 rule BuyEat2BeHappy
-    transform s : buyeat!People
-    to n : behappy!People {
+  transform s : buyeat!People
+  to n : behappy!People {
   
-    n.name = s.name;
+  n.name = s.name;
 	if(s.Buy.size()>0 and s.Eats.size()>0){
 		  for (i in Sequence{0..(s.Buy.size())}){
 		  	for(j in Sequence{0..(s.Eats.size())}){
@@ -10,10 +10,10 @@ rule BuyEat2BeHappy
 				  	n.ishappy=true;
 				  	return;
 				  }
+			  }
+		 	}
+		 }else{
+			  n.ishappy=false;
+			  return;
 			}
-		 }
-	}else{
-		n.ishappy=false;
-		return;
 	}
-}

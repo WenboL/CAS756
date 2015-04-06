@@ -94,7 +94,7 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_Nw7tANP5EeSZysJHW97twg" type="4003" source="_NwxU-tP5EeSZysJHW97twg" target="_Nwwt7NP5EeSZysJHW97twg">
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw7tA9P5EeSZysJHW97twg" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw7tBNP5EeSZysJHW97twg" x="-4" y="-43"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw7tBNP5EeSZysJHW97twg" y="40"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw7tBdP5EeSZysJHW97twg" type="6004">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw7tBtP5EeSZysJHW97twg" x="-11" y="-22"/>
