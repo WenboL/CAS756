@@ -8,7 +8,15 @@ context behappy!People {
     message : "Element " + self + " must define a name"
     
   }
-  
+  //check if people exists in source model
+  constraint PeopleExists {
+	 	guard: self.satisfies ("HasName")  
+	  	check: buyeat!People.allInstances.name.includes(self.name)
+	  	
+	  	message: self.name + " is not exists in source model, please check."
+	  }
+	  
+	  
   //check if all the people been copied over
   constraint SamePeople {
   	check{
@@ -19,32 +27,36 @@ context behappy!People {
   		}
   		return false;
   	}  
-  	message: "People is not transform to target model"
+  	message: "The number of people in target model is not same as source model."
   }
+
   
-  //check if the people should be happy or not
-	constraint ShouldBeHappy {
-		guard: self.satisfies ("HasName")
-		check{
-		
-		
-		  for (i in buyeat!People.Buy){
-		  	for(j in buyeat!People.Eats){
-		  		i.print;
-		  		j.print;
-				  if (i == j and self.ishappy == true){
-				  	return;
-				  }
-			  }
-		 	}
-		
-		
-	}
-	message:"wrong"
-	}
 } 
 
 
-
-	
-	
+/*
+//check if the people should be happy or not
+	constraint EatEuqalsBuy {
+		check{
+			if(self.ishappy = true){
+				var targetname = self.name;
+			}
+			for(i in (buyeat!People.allInstances.Buy)){
+				for(j in buyeat!People.allInstances.Eats){
+					if(i==j){
+					return true;
+					}
+				//(buyeat!People.allInstances.at(i).Eats.name == buyeat!People.allInstances.at(i).Buy.name).print;
+				}
+			}
+			//(buyeat!People.allInstances.at(0).Eats == buyeat!People.allInstances.at(0).Buy).print;
+			//buyeat!People.allInstances.at(1).Eats.name.exists(sp|sp=buyeat!People.allInstances.at(1).Buy.name).print;
+			//buyeat!People.allInstances.at(0).Eats.name.print;
+			//buyeat!People.allInstances.at(0).Buy.print;
+			return true;
+			
+			
+		}
+		
+	message: self.name + " should not be marked as happy."
+	}

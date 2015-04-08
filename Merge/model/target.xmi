@@ -1,32 +1,3 @@
 <?xml version="1.0" encoding="ASCII"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:target="target">
-  <target:info name="Max Payne">
-    <phone>111111</phone>
-    <phone>222222</phone>
-    <phone>666666</phone>
-  </target:info>
-  <target:info name="John Mctown">
-    <phone>333333</phone>
-  </target:info>
-  <target:info name="RightNoName">
-    <phone>444444</phone>
-  </target:info>
-  <target:info name="LeftNoName">
-    <phone>777777</phone>
-  </target:info>
-  <target:info name="FirstNumber Same">
-    <phone>555555</phone>
-    <phone>888888</phone>
-  </target:info>
-  <target:info name="SecondNumber Same">
-    <phone>999999</phone>
-    <phone>121212</phone>
-  </target:info>
-  <target:info name="Left NotMatch">
-    <phone>232323</phone>
-  </target:info>
-  <target:info name="Right NotMatch">
-    <phone>343434</phone>
-    <phone>454545</phone>
-  </target:info>
 </xmi:XMI>

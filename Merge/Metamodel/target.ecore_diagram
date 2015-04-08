@@ -40,7 +40,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_P2neudTLEeSZh6S4RXzKkQ"/>
     </children>
     <element xmi:type="ecore:EClass" href="target.ecore#//info"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2m3odTLEeSZh6S4RXzKkQ" x="144" y="180"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2m3odTLEeSZh6S4RXzKkQ" x="117" y="171"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_OZjDwdTLEeSZh6S4RXzKkQ"/>
   <element xmi:type="ecore:EPackage" href="target.ecore#/"/>

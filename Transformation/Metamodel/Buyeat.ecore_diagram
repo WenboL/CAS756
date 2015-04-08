@@ -15,7 +15,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_Nwwt69P5EeSZysJHW97twg"/>
     </children>
     <element xmi:type="ecore:EClass" href="Buyeat.ecore#//People"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nwwt4dP5EeSZysJHW97twg" y="112"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nwwt4dP5EeSZysJHW97twg" x="189" y="198"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Nwwt7NP5EeSZysJHW97twg" type="2001" fontName=".Helvetica Neue DeskInterface">
     <children xmi:type="notation:DecorationNode" xmi:id="_NwxU8NP5EeSZysJHW97twg" type="5001"/>
@@ -32,7 +32,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_NwxU-dP5EeSZysJHW97twg"/>
     </children>
     <element xmi:type="ecore:EClass" href="Buyeat.ecore#//Food"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nwwt7dP5EeSZysJHW97twg" x="46" y="231"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nwwt7dP5EeSZysJHW97twg" x="144" y="387"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_NwxU-tP5EeSZysJHW97twg" type="2001" fontName=".Helvetica Neue DeskInterface">
     <children xmi:type="notation:DecorationNode" xmi:id="_NwxU_NP5EeSZysJHW97twg" type="5001"/>
@@ -49,7 +49,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_NwxVBdP5EeSZysJHW97twg"/>
     </children>
     <element xmi:type="ecore:EClass" href="Buyeat.ecore#//Buyeat"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NwxU-9P5EeSZysJHW97twg" x="115"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NwxU-9P5EeSZysJHW97twg" x="315" y="90"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_NwXsUdP5EeSZysJHW97twg"/>
   <element xmi:type="ecore:EPackage" href="Buyeat.ecore#/"/>
@@ -68,10 +68,10 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_Nw4psNP5EeSZysJHW97twg" type="4002" source="_Nwwt4NP5EeSZysJHW97twg" target="_Nwwt7NP5EeSZysJHW97twg">
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw4ps9P5EeSZysJHW97twg" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw4ptNP5EeSZysJHW97twg" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw4ptNP5EeSZysJHW97twg" x="-8" y="-18"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw4ptdP5EeSZysJHW97twg" type="6003">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw4pttP5EeSZysJHW97twg" y="60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw4pttP5EeSZysJHW97twg" x="-17" y="-10"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Nw4psdP5EeSZysJHW97twg" fontName=".Helvetica Neue DeskInterface"/>
     <element xmi:type="ecore:EReference" href="Buyeat.ecore#//People/Buy"/>
@@ -81,10 +81,10 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_Nw6e4NP5EeSZysJHW97twg" type="4003" source="_NwxU-tP5EeSZysJHW97twg" target="_Nwwt4NP5EeSZysJHW97twg">
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw6e49P5EeSZysJHW97twg" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw6e5NP5EeSZysJHW97twg" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw6e5NP5EeSZysJHW97twg" x="14" y="21"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw6e5dP5EeSZysJHW97twg" type="6004">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw6e5tP5EeSZysJHW97twg" y="60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw6e5tP5EeSZysJHW97twg" x="7" y="18"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Nw6e4dP5EeSZysJHW97twg" fontName=".Helvetica Neue DeskInterface"/>
     <element xmi:type="ecore:EReference" href="Buyeat.ecore#//Buyeat/Peopleroot"/>
@@ -94,7 +94,7 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_Nw7tANP5EeSZysJHW97twg" type="4003" source="_NwxU-tP5EeSZysJHW97twg" target="_Nwwt7NP5EeSZysJHW97twg">
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw7tA9P5EeSZysJHW97twg" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw7tBNP5EeSZysJHW97twg" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw7tBNP5EeSZysJHW97twg" x="-34" y="-21"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Nw7tBdP5EeSZysJHW97twg" type="6004">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Nw7tBtP5EeSZysJHW97twg" x="-11" y="-22"/>

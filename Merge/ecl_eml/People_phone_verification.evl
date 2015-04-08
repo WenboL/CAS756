@@ -25,13 +25,6 @@ context target!info {
     message:  self.name + " must have at least one phone number"
     
   }
-  constraint DuplicatedNumber{
-  	guard: self.satisfies ("HasName")  
-  	check {
-  	
-  	}
-  	message: self.name+" has same phone number as "+self.name
-  }
   
 
  
